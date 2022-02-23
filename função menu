@@ -1,0 +1,7 @@
+"""menu"""
+cor = str(input("Insira a cor desejada, sendo ela vermelho, amarelo, verde ou azul.")) #solicita cor ao usuário em string
+cor = cor.capitalize() #organiza a string onde a primeira letra é maiúscula e o resto são minúsculas.
+while cor != "Amarelo" and cor != "Vermelho" and cor != "Azul" and cor != "Verde": #enquanto a cor não é uma das escolhidas, entra no loop.
+    cor = str(input("Insira novamente. As cores devem ser apenas azul, amarelo, verde ou vermelho.\n")) #solicita novamente as cores, organiza e continua o loop até o usuário escrever corretamente.
+    cor = cor.capitalize()
+print ("fora", cor)
